@@ -12,6 +12,7 @@ Output TriC_MO.pl:
 3. Wig file containing all reported interactions in cis per viewpoint (Capture-C like track; optional)
 
 Example of a minimal run command:
+
 nohup perl TriC_MO.pl -sam COMBINED_reported_capture_reads_CS5.sam -o /my_path/tri-c_oligo_file_noprex.txt -r /my_path/mm9_nlaIII_coordinates.txt -name X &
 
 
