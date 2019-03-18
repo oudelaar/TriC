@@ -18,9 +18,11 @@ nohup perl TriC_MO.pl -sam COMBINED_reported_capture_reads_CS5.sam -o /my_path/t
 The TriC_matrix_simple_MO.py script plots a simple Tri-C matrix. It depends on the txt file output of the TriC_MO.pl script. 
 
 For more details: 
+
 python TriC_matrix_simple_MO.py -h
 
 Example of a minimal run command:
+
 python TriC_matrix_simple_MO.py -f /my_path/X_TriC_interactions.txt -l 1 -r 200000 &
 
 
